@@ -26,9 +26,9 @@ ALL_TRAIN_URLS = 'url_lists/all_train.txt'
 ALL_VAL_URLS = 'url_lists/all_val.txt'
 ALL_TEST_URLS = 'url_lists/all_test.txt'
 
-CNN_TOKENIZED_STORIES_DIR = '../data/transformed/cnn_stories_tokenized'
-DM_TOKENIZED_STORIES_DIR = '../data/transformed/dm_stories_tokenized'
-FINISHED_FILES_DIR = '../data/transformed/train_cnn_dailymail'
+CNN_TOKENIZED_STORIES_DIR = 'data/cnn_stories_tokenized'
+DM_TOKENIZED_STORIES_DIR = 'data/dm_stories_tokenized'
+FINISHED_FILES_DIR = 'data/finished_files'
 chunks_dir = os.path.join(FINISHED_FILES_DIR, 'chunked')
 
 # These are the number of .story files we expect there to be in cnn_stories_dir
